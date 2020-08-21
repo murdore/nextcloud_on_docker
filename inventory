@@ -6,10 +6,10 @@ localhost ansible_connection=local
 ### Preliminary variables ###
 
 # The domain name for your Nextcloud instance. You'll get a Let's Encrypt certificate for this domain.
-nextcloud_server_fqdn       = nextcloud.example.tld
+nextcloud_server_fqdn       = nextcloud.unlimtools.com
 
 # Your email address (for Let's Encrypt).
-ssl_cert_email              = 
+ssl_cert_email              = sachiny09@gmail.com
 
 ### Nextcloud variables ###
 
@@ -35,7 +35,7 @@ nextcloud_db_prefix         = 'oc_'
 
 # Setup the Nextcloud mail server.
 nextcloud_configure_mail    = false
-nextcloud_mail_from         = 
+nextcloud_mail_from         =
 nextcloud_mail_smtpmode     = smtp
 nextcloud_mail_smtpauthtype = LOGIN
 nextcloud_mail_domain       =
@@ -45,7 +45,7 @@ nextcloud_mail_smtpauth     = 1
 nextcloud_mail_smtphost     =
 nextcloud_mail_smtpport     = 587
 nextcloud_mail_smtpname     =
-nextcloud_mail_smtppwd      = 
+nextcloud_mail_smtppwd      =
 
 # Use S3 Bucket as primary storage
 aws_s3_key            = ''
